@@ -25,6 +25,9 @@ h3 {
   font-size: 1.5rem;
   padding-left: 10px;
 }
+h3:hover {
+  text-decoration: underline;
+}
 p {
   display: inline-block;
   width: 50%;
@@ -34,21 +37,24 @@ p {
   margin: 0;
   padding-right: 10px;
 }
+a {
+  color: #4D4D4D;
+}
 .palette{
   margin: 20px auto;
   border: solid 1px #6D6D6D;
   border-radius: 11px;
 }
-.dominant {
+.color:first-of-type {
   border-radius: 0 0 0 10px;
 }
-.dominant, .contrastingDominant, .subDominant, .contrastingSubDominant, .pop  {
+.color  {
   display: inline-block;
   height: 70px;
   width: 20%;
   border-top: solid 1px #6D6D6D;
 }
-.pop {
+.color:last-of-type {
   border-radius: 0 0 10px 0;
 }
 .hex {
